@@ -1,0 +1,15 @@
+{
+  "notice": "Referência manual; não é carregado pelos aplicativos.",
+  "lm_studio": {
+    "base_url": "http://127.0.0.1:1234/v1",
+    "model_id": "SUBSTITUA_PELO_ID_RETORNADO_PELA_API"
+  },
+  "image_backend": {
+    "type": "automatic1111",
+    "base_url": "http://127.0.0.1:7860"
+  },
+  "sillytavern": {
+    "browser_url": "http://127.0.0.1:8000",
+    "note": "Confirme a porta exibida na inicialização."
+  }
+}

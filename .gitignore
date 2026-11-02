@@ -1,0 +1,48 @@
+# Configuração e credenciais
+.env
+.env.*
+!.env.example
+*.local.*
+secrets/
+*.pem
+*.key
+# Dados privados e instalações
+/local/
+/apps/
+/data/
+/models/
+/outputs/
+/logs/
+/backups/
+/characters/
+/chats/
+/SillyTavern/
+/stable-diffusion-webui/
+config.yaml
+# Pesos de modelos
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+# Exportações e bases de dados
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.zip
+*.7z
+*.tar
+*.gz
+# Dependências e temporários
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+.DS_Store
+Thumbs.db
